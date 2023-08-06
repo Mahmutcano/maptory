@@ -11,7 +11,7 @@ app.use("/maptory", authenticateToke, maptoryRoutes);
 app.use("/auth", authRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Hello World, Update");
+  res.send("Hello World, Update 2");
 });
 
 app.listen(3000, () => {
